@@ -1,4 +1,4 @@
-# magento-components
+# GH Shop Components
 
 ## Build Setup
 

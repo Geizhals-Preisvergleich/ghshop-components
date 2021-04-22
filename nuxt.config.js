@@ -8,7 +8,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Index',
-    titleTemplate: '%s – Magento Komponenten',
+    titleTemplate: '%s – GH Shop Komponenten',
     htmlAttrs: {
       lang: 'en'
     },

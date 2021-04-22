@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="title">
-      Tailwind Components
+      GH Shop Components
     </h1>
     <h2 class="subtitle">
       <NuxtLink to="/">Index</NuxtLink>
