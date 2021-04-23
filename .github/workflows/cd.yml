@@ -26,8 +26,19 @@ jobs:
       - name: Generate
         run: npm run generate
 
-      - name: Deploy
+      - name: Deploy to GH Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
+
+      - name: Copy CSS file to AWS S3
+        run: |
+          aws s3 cp ./dist/ghshop-components.css s3://ghs-mage2-ecs-infra-media-files/static-css/
