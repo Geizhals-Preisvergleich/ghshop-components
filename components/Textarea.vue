@@ -22,7 +22,7 @@
 </template>
 
 <script>
-  import { indentHtml } from '../indentHtml';
+  import { indentHtml } from '../helpers/indentHtml';
 
   export default {
     props: {
