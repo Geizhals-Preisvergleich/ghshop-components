@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container gh-container">
     <Head />
 
-    <div class="component-container">
+    <div class="gh-component-container">
       <Nuxt />
     </div>
   </div>
@@ -55,14 +55,14 @@
       text-red-500
   }
 
-  .container {
+  .gh-container {
     @apply
       mx-auto
       text-center
       my-4
   }
 
-  .title {
+  .gh-title {
     @apply
       text-4xl
       text-center
@@ -72,7 +72,7 @@
       font-bold
   }
 
-  .subtitle {
+  .gh-subtitle {
     @apply
       text-gray-500
       text-xl

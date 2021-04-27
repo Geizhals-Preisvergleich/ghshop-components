@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container gh-container">
     <Head />
 
-    <div class="component-container">
+    <div class="gh-component-container">
       <Colors />
       <Nuxt ref="component" />
       <Textarea :html="component" />

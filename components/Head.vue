@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1 class="title">
+    <h1 class="gh-title">
       GH Shop Components
     </h1>
-    <h2 class="subtitle">
+    <h2 class="gh-subtitle">
       <NuxtLink to="/">Index</NuxtLink>
       <span v-show="title"> / {{ title }}</span>
     </h2>
