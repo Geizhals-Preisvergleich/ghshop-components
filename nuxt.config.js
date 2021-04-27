@@ -10,7 +10,8 @@ export default {
     title: 'Index',
     titleTemplate: '%s – GH Shop Komponenten',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+      class: 'nuxt-html',
     },
     meta: [
       { charset: 'utf-8' },
