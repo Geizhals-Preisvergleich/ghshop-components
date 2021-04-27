@@ -2,21 +2,21 @@
   <div>
     <Colors />
 
-    <ul>
+    <ul class="mx-auto text-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
       <li>
-        <NuxtLink to="/button">Button</NuxtLink>
+        <NuxtLink to="/button" class="index-link">Button</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/footer">Footer</NuxtLink>
+        <NuxtLink to="/footer" class="index-link">Footer</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/paragraph-image">Paragraph with Image</NuxtLink>
+        <NuxtLink to="/paragraph-image" class="index-link">Paragraph with Image</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/products-grid">Products Grid</NuxtLink>
+        <NuxtLink to="/products-grid" class="index-link">Products Grid</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/slider">Slider</NuxtLink>
+        <NuxtLink to="/slider" class="index-link">Slider</NuxtLink>
       </li>
     </ul>
   </div>
@@ -36,16 +36,8 @@
 </script>
 
 <style>
-  ul {
+  .index-link {
     @apply
-      mx-auto
-      max-w-lg
-      text-center;
-  }
-
-  ul li a {
-    @apply
-      mb-4
       rounded-xl
       no-underline
       border
