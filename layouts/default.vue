@@ -75,8 +75,10 @@
   .subtitle {
     @apply
       text-gray-500
-      text-3xl
+      text-xl
       text-center
       mb-8
+      uppercase
+      tracking-wider
   }
 </style>
