@@ -3,8 +3,7 @@ export const state = () => ({
   colors: {
     primary: '#005599',
     secondary: '#003377',
-    black: '#020202',
-    white: '#fdfdfd',
+    buttonText: '#fdfdfd',
   }
 })
 

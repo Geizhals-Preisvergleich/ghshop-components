@@ -22,22 +22,12 @@
         >
       </label>
       <label>
-        Black:
+        Button Text:
         <input
           type="color"
           class="color-picker"
-          id="black"
-          :value="colors.black"
-          @change="setCssVar"
-        >
-      </label>
-      <label>
-        White:
-        <input
-          type="color"
-          class="color-picker"
-          id="white"
-          :value="colors.white"
+          id="buttonText"
+          :value="colors.buttonText"
           @change="setCssVar"
         >
       </label>
@@ -61,7 +51,6 @@
   export default {
     data() {
       return {
-
         hidden: true,
       }
     },
