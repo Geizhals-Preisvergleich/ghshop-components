@@ -15,6 +15,7 @@
       class="textarea"
       ref="textarea"
       :value="value"
+      :rows="rows"
       @click="handleClick"
       readonly
     ></textarea>
@@ -34,11 +35,20 @@
       return {
         copyText: '',
         value: '',
+        rows: 4,
       }
     },
     computed: {
       textareaShow() {
         return !this.hidden;
+      },
+      textareaRows: {
+        get() {
+          return this.rows;
+        },
+        set(newValue) {
+          this.rows = newValue;
+        }
       },
       textareaValue: {
         get() {
@@ -46,6 +56,7 @@
         },
         set(newValue) {
           this.value = newValue;
+          this.textareaRows = newValue.split(/\r\n|\r|\n/).length;
         }
       },
       colors() {
@@ -107,7 +118,6 @@
 
   .textarea {
     font-family: 'Courier New', Courier, monospace;
-    min-height: 120px;
 
     @apply
       block
@@ -118,6 +128,7 @@
       border-gray-600
       rounded-lg
       text-left
+      whitespace-pre
 	}
 
   .copy-button {
