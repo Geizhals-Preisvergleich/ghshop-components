@@ -10,7 +10,7 @@
     "concat-css": "cat ./dist/_nuxt/css/* > ./dist/ghshop-components.css"
   },
   "dependencies": {
-    "core-js": "^3.11.0",
+    "core-js": "^3.11.2",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {
