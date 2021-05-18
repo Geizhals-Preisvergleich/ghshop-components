@@ -16,6 +16,9 @@
         <NuxtLink to="/footer" class="index-link">Footer</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/hero" class="index-link">Hero</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/paragraph-image" class="index-link">Paragraph with Image</NuxtLink>
       </li>
       <li>
