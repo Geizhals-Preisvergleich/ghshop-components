@@ -39,7 +39,9 @@
       this.outerHtml = this.$refs.component.$el.firstChild.outerHTML;
 
       this.$nuxt.$on('update:textarea', () => {
-        this.outerHtml = this.$refs.component.$el.firstChild.outerHTML;
+        if (this.$refs.component) {
+          this.outerHtml = this.$refs.component.$el.firstChild.outerHTML;
+        }
       });
     },
   }
