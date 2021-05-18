@@ -4,6 +4,9 @@
 
     <ul class="mx-auto text-center grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
       <li>
+        <NuxtLink to="/brands" class="index-link">Brands Grid</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/button" class="index-link">Button</NuxtLink>
       </li>
       <li>
