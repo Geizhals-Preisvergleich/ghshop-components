@@ -7,8 +7,8 @@
       <p class="text-center text-sm">
         I am a centered text in sm
       </p>
-      <p class="text-center text-md">
-        I am a centered text in md
+      <p class="text-center text-base">
+        I am a centered text in base
       </p>
       <p class="text-center text-lg">
         I am a centered text in lg
