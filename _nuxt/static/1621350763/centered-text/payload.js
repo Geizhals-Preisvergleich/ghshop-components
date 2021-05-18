@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/centered-text", {data:[{}],fetch:{},mutations:[]});
