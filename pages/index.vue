@@ -7,6 +7,9 @@
         <NuxtLink to="/button" class="index-link">Button</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/centered-text" class="index-link">Centered Text</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/footer" class="index-link">Footer</NuxtLink>
       </li>
       <li>

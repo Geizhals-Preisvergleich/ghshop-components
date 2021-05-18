@@ -50,6 +50,11 @@
       hover:no-underline
   }
 
+  p {
+    @apply
+      mb-4
+  }
+
   .nuxt-link-active {
     @apply
       text-red-500
