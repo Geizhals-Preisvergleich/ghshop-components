@@ -4,7 +4,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="#">
-            <img class="h-40 rounded w-full object-cover object-center mb-4" src="https://dummyimage.com/720x400" alt="Image">
+            <img class="h-40 rounded w-full object-cover object-center mb-4" src="~/assets/placeholder-300x200.png" alt="Image">
           </a>
           <h2 class="text-lg text-gray-900 font-bold mb-2">
             <a href="#">Chichen Itza</a>
@@ -20,7 +20,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="#">
-            <img class="h-40 rounded w-full object-cover object-center mb-4" src="https://dummyimage.com/720x400" alt="Image">
+            <img class="h-40 rounded w-full object-cover object-center mb-4" src="~/assets/placeholder-300x200.png" alt="Image">
           </a>
           <h2 class="text-lg text-gray-900 font-bold mb-2">
             <a href="#">Chichen Itza</a>
@@ -36,7 +36,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="#">
-            <img class="h-40 rounded w-full object-cover object-center mb-4" src="https://dummyimage.com/720x400" alt="Image">
+            <img class="h-40 rounded w-full object-cover object-center mb-4" src="~/assets/placeholder-300x200.png" alt="Image">
           </a>
           <h2 class="text-lg text-gray-900 font-bold mb-2">
             <a href="#">Chichen Itza</a>
@@ -52,7 +52,7 @@
       <div class="xl:w-1/4 md:w-1/2 p-4">
         <div class="bg-gray-100 p-6 rounded-lg">
           <a href="#">
-            <img class="h-40 rounded w-full object-cover object-center mb-4" src="https://dummyimage.com/720x400" alt="Image">
+            <img class="h-40 rounded w-full object-cover object-center mb-4" src="~/assets/placeholder-300x200.png" alt="Image">
           </a>
           <h2 class="text-lg text-gray-900 font-bold mb-2">
             <a href="#">Chichen Itza</a>
