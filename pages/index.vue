@@ -16,6 +16,9 @@
         <NuxtLink to="/footer" class="index-link">Footer</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/gallery-grid" class="index-link">Gallery Grid</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/hero" class="index-link">Hero</NuxtLink>
       </li>
       <li>
