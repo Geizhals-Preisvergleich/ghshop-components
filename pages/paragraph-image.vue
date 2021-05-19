@@ -7,7 +7,7 @@
           :class="{'lg:order-2': toggleActive}"
         >
           <a href="#">
-            <img class="object-cover object-center rounded lg:h-full" src="~/assets/placeholder-750x300.png" alt="image">
+            <img class="object-cover object-center rounded lg:h-full" src="~/assets/placeholder-750x300.jpg" alt="image">
           </a>
         </div>
         <div

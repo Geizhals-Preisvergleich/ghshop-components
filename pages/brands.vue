@@ -3,62 +3,62 @@
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
-          <img src="~/assets/placeholder-350x100.png" alt="">
+          <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
     </div>

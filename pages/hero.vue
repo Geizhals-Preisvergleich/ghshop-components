@@ -12,7 +12,7 @@
           </div>
         </div>
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
-          <img class="object-cover object-center rounded" alt="hero" src="~/assets/placeholder-720x400.png">
+          <img class="object-cover object-center rounded" alt="hero" src="~/assets/placeholder-720x400.jpg">
         </div>
       </div>
     </section>
