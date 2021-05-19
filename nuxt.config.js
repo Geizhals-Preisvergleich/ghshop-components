@@ -48,9 +48,4 @@ export default {
   build: {
     extractCSS: true,
   },
-
-  // Tailwind config
-  tailwindcss: {
-    jit: true
-  }
 }
