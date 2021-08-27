@@ -46,9 +46,6 @@
         <NuxtLink to="/slider" class="index-link">Slider</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/title2" class="index-link">Title</NuxtLink>
-      </li>
-      <li>
         <NuxtLink to="/video" class="index-link">Video</NuxtLink>
       </li>
     </ul>
