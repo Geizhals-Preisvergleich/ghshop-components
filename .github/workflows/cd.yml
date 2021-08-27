@@ -41,4 +41,4 @@ jobs:
 
       - name: Copy CSS file to AWS S3
         run: |
-          aws s3 cp ./dist/ghshop-components.css s3://ghs-mage2-ecs-infra-media-files/static-css/
+          aws s3 cp ./dist/ghshop-components.css s3://ghs-infra-live-static-css/
