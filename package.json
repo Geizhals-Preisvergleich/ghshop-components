@@ -10,12 +10,12 @@
     "concat-css": "cat ./dist/_nuxt/css/* > ./dist/ghshop-components.css"
   },
   "dependencies": {
-    "core-js": "^3.12.1",
-    "nuxt": "^2.15.6"
+    "core-js": "^3.16.3",
+    "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^4.1.2",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.15"
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6"
   }
 }
