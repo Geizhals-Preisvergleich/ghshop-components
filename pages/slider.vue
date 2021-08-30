@@ -36,6 +36,7 @@
 				  perPage: 1,
 				  gap: '1rem',
           autoplay: true,
+          heightRatio: 0.325,
 			  },
       }
     },
@@ -44,3 +45,19 @@
     },
   }
 </script>
+
+<style>
+  .splide__slide {
+    display: flex;
+  }
+
+  .splide__slide a {
+    width: 100%;
+  }
+
+  .splide__slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+</style>
