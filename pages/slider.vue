@@ -22,6 +22,7 @@
         </a>
       </splide-slide>
     </splide>
+    <Textarea :html="sliderMarkup" />
   </div>
 </template>
 
@@ -35,9 +36,32 @@
 			  	rewind : true,
 				  perPage: 1,
 				  gap: '1rem',
-          autoplay: true,
+          autoplay: false,
           heightRatio: 0.325,
 			  },
+        sliderMarkup: `
+          <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <a href="#">
+                    <img src="#" alt="">
+                  </a>
+                </li>
+                <li class="splide__slide">
+                  <a href="#">
+                    <img src="#" alt="">
+                  </a>
+                </li>
+                <li class="splide__slide">
+                  <a href="#">
+                    <img src="#" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        `,
       }
     },
     mounted() {
