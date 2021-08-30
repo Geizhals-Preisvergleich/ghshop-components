@@ -5,7 +5,7 @@
     <div class="gh-component-container">
       <Colors />
       <Nuxt ref="component" />
-      <Textarea :html="component" />
+      <Textarea :html="component" v-if="showOuterHtmlTextarea" />
     </div>
   </div>
 </template>
@@ -15,6 +15,7 @@
     data() {
       return {
         component: '',
+        showOuterHtmlTextarea: this.$nuxt.$route.name !== 'slider',
       }
     },
     computed: {
