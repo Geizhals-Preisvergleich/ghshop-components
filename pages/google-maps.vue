@@ -1,21 +1,24 @@
 <template>
   <div>
-    <section :class="{'lg:justify-end': toggleActive}" class="lg:py-6 lg:flex mx-10 lg:justify-start justify-center">
-        <div class="lg:flex">
-            <div class="lg:w-1/2 lg:order-1">
-                <a href="#">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.1379452847987!2d16.391184215771464!3d48.22321827923044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07a45044f995%3A0xaf433369d8a9834f!2sGeizhals-Preisvergleich!5e0!3m2!1sde!2sat!4v1626264625220!5m2!1sde!2sat"
-                    width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </a>
-            </div>
-        </div>
+    <section class="gh-maps">
+      <div class="gh-maps__map-wrapper">
+        <iframe width="100%" height="100%" class="gh-maps__map" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=Wien&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+      </div>
+      <div class="gh-maps__content-wrapper">
+        <h2 class="gh-maps__title">Adresse</h2>
+        <p class="gh-maps__text">
+          Preisvergleich Internet Services AG (Medieninhaber)<br>
+          Rothschildplatz 3 Top 3.01<br>
+          1020 Wien
+        </p>
+
+        <h2 class="gh-maps__title">E-Mail</h2>
+        <p class="gh-maps__text">example@email.com</p>
+
+        <h2 class="gh-maps__title">Telefon</h2>
+        <p class="gh-maps__text">123-456-7890</p>
+      </div>
     </section>
-        <div>
-      <Toggle
-        :text="toggleText"
-        :active.sync="toggleActive"
-      />
-    </div>
   </div>
 </template>
 
@@ -37,6 +40,63 @@
     },
   }
 </script>
+
+<style>
+  .gh-maps {
+    @apply
+      flex
+      md:flex-nowrap
+      flex-wrap
+      py-8
+  }
+
+  .gh-maps__map-wrapper {
+    @apply
+      lg:w-2/3
+      md:w-1/2
+      w-full
+      rounded
+      overflow-hidden
+      mr-0
+      md:mr-4
+      relative
+  }
+
+  .gh-maps__map {
+    @apply
+      grayscale
+      w-full
+      h-60
+      md:h-full
+  }
+
+  .gh-maps__content-wrapper {
+    @apply
+      lg:w-1/3
+      md:w-1/2
+      flex
+      flex-col
+      md:ml-auto
+      w-full
+      md:py-8
+      mt-8
+      md:mt-0
+      text-left
+  }
+
+  .gh-maps__title {
+    @apply
+      text-lg
+      mb-1
+      font-medium
+  }
+
+  .gh-maps__text {
+    @apply
+      leading-relaxed
+      mb-4
+  }
+</style>
 
 
 
