@@ -24,15 +24,15 @@
       <li>
         <NuxtLink to="/gallery-grid" class="index-link">Gallery Grid</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/google-maps" class="index-link">Google Maps</NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink to="/hero" class="index-link">Hero</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/navbar" class="index-link">Navbar</NuxtLink>
-      </li>
+      </li> -->
       <li>
         <NuxtLink to="/opening-hours" class="index-link">Opening Hours</NuxtLink>
       </li>
@@ -45,9 +45,9 @@
       <li>
         <NuxtLink to="/slider" class="index-link">Slider</NuxtLink>
       </li>
-      <li>
+      <!-- <li>
         <NuxtLink to="/video" class="index-link">Video</NuxtLink>
-      </li>
+      </li> -->
     </ul>
   </div>
 </template>
