@@ -1,43 +1,38 @@
 <template>
   <div>
-    <div class="w-2/3 mx-auto">
-      <div class="bg-white shadow-md my-6">
-        <table class=" text-left w-full border-collapse">
+    <div class="gh-opening-hours">
+      <div class="gh-opening-hours__inner">
+        <table class="gh-opening-hours__table">
           <thead>
             <tr>
-              <th class="gh-headbg py-4 px-6 font-bold uppercase text-sm text-gray-50 border-b border-gray-200 shadow-sm">Tag</th> <!-- bg-farbe-helligkeit -->
-              <th class="gh-headbg py-4 px-6  font-bold uppercase text-sm text-gray-50 border-b border-gray-200 shadow-sm">Öffnungszeiten</th>
+              <th class="gh-opening-hours__table__head">Tag</th>
+              <th class="gh-opening-hours__table__head">Öffnungszeiten</th>
             </tr>
           </thead>
           <tbody>
-            <tr class="hover:bg-gray-50">
-              <td class="py-4 px-6 border-b border-grey-light">Montag</td>
-                <td class="py-4 px-6 border-b border-grey-light">9:00-17:00</td>
+            <tr class="gh-opening-hours__table__row">
+              <td class="gh-opening-hours__table__cell">Montag</td>
+              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
             </tr>
-
-            <tr class="hover:bg-gray-50">
-              <td class="py-4 px-6 border-b border-grey-light">Dienstag</td>
-                <td class="py-4 px-6 border-b border-grey-light">9:00-17:00</td>
+            <tr class="gh-opening-hours__table__row">
+              <td class="gh-opening-hours__table__cell">Dienstag</td>
+              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
             </tr>
-
-            <tr class="hover:bg-gray-50">
-              <td class="py-4 px-6 border-b border-grey-light">Mittwoch</td>
-                <td class="py-4 px-6 border-b border-grey-light">9:00-17:00</td>
+            <tr class="gh-opening-hours__table__row">
+              <td class="gh-opening-hours__table__cell">Mittwoch</td>
+              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
             </tr>
-
-            <tr class="hover:bg-gray-50">
-              <td class="py-4 px-6 border-b border-grey-light">Donnerstag</td>
-                <td class="py-4 px-6 border-b border-grey-light">9:00-17:00</td>
+            <tr class="gh-opening-hours__table__row">
+              <td class="gh-opening-hours__table__cell">Donnerstag</td>
+              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
             </tr>
-
-            <tr class="hover:bg-gray-50">
-              <td class="py-4 px-6 border-b border-grey-light">Freitag</td>
-                <td class="py-4 px-6 border-b border-grey-light">9:00-14:00 / 15:00-18:00</td>
+            <tr class="gh-opening-hours__table__row">
+              <td class="gh-opening-hours__table__cell">Freitag</td>
+              <td class="gh-opening-hours__table__cell">9:00-14:00 / 15:00-18:00</td>
             </tr>
-            
-            <tr class="hover:bg-gray-50">
-              <td class="py-4 px-6 border-b border-grey-light">Samstag</td>
-                <td class="py-4 px-6 border-b border-grey-light">9:00-11:30</td>
+            <tr class="gh-opening-hours__table__row">
+              <td class="gh-opening-hours__table__cell">Samstag</td>
+              <td class="gh-opening-hours__table__cell">9:00-11:30</td>
             </tr>
           </tbody>
         </table>
@@ -61,8 +56,48 @@
 </script>
 
 <style>
-  .gh-headbg {
+  .gh-opening-hours {
+    @apply
+      w-2/3
+      mx-auto
+  }
+
+  .gh-opening-hours__inner {
+    @apply
+      bg-white
+      my-6
+  }
+
+  .gh-opening-hours__table {
+    @apply
+      text-left
+      w-full
+      border-collapse
+  }
+
+  .gh-opening-hours__table__head {
     background-color: var(--primary);
+
+    @apply
+      py-4
+      px-6
+      font-bold
+      uppercase
+      text-sm
+      text-white
+  }
+
+  .gh-opening-hours__table__row {
+    @apply
+      hover:bg-gray-50
+  }
+
+  .gh-opening-hours__table__cell {
+    @apply
+      py-4
+      px-6
+      border-b
+      border-gray-200
   }
 </style>
 

@@ -1,25 +1,25 @@
 <template>
   <div>
-    <section class="lg:py-6 lg:flex lg:justify-center">
-      <div class="lg:flex">
+    <section class="gh-paragraph-image">
+      <div class="gh-paragraph-image__inner">
         <div
-          class="lg:w-1/2"
-          :class="{'lg:order-2': toggleActive}"
+          class="gh-paragraph-image__image-wrapper"
+          :class="{'gh-paragraph-image__image-wrapper--right': toggleActive}"
         >
           <a href="#">
-            <img class="object-cover object-center rounded lg:h-full" src="~/assets/placeholder-750x300.jpg" alt="image">
+            <img class="gh-paragraph-image__image" src="~/assets/placeholder-750x300.jpg" alt="">
           </a>
         </div>
         <div
-          class="flex flex-col items-center justify-center px-6 mt-4 lg:mt-0 lg:w-1/2"
-          :class="{'lg:order-1': toggleActive}"
+          class="gh-paragraph-image__content-wrapper"
+          :class="{'gh-paragraph-image__content-wrapper--left': toggleActive}"
         >
-          <h2 class="font-bold text-gray-800 text-2xl lg:text-3xl">
+          <h2 class="gh-paragraph-image__title">
             <a href="#">Lorem ipsum dolor sit amet</a>
           </h2>
-          <p class="mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+          <p class="gh-paragraph-image__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
 
-          <div class="mt-8">
+          <div class="gh-paragraph-image__button-wrapper">
             <a href="#" class="gh-button">Button</a>
           </div>
         </div>
@@ -52,3 +52,69 @@
     },
   }
 </script>
+
+<style>
+  .gh-paragraph-image {
+    @apply
+      lg:py-6
+      lg:flex
+      lg:justify-center
+  }
+
+  .gh-paragraph-image__inner {
+    @apply
+      lg:flex
+  }
+
+  .gh-paragraph-image__image-wrapper {
+    @apply
+      lg:w-1/2
+  }
+
+  .gh-paragraph-image__image-wrapper--right {
+    @apply
+      lg:order-2
+  }
+
+  .gh-paragraph-image__content-wrapper {
+    @apply
+      flex
+      flex-col
+      items-center
+      justify-center
+      px-6
+      mt-4
+      lg:mt-0
+      lg:w-1/2
+  }
+
+  .gh-paragraph-image__content-wrapper--left {
+    @apply
+      lg:order-1
+  }
+
+  .gh-paragraph-image__image {
+    @apply
+      object-cover
+      object-center
+      rounded
+      lg:h-full
+  }
+
+  .gh-paragraph-image__title {
+    @apply
+      font-bold
+      text-2xl
+      lg:text-3xl
+  }
+
+  .gh-paragraph-image__text {
+    @apply
+      mt-4
+  }
+
+  .gh-paragraph-image__button-wrapper {
+    @apply
+      mt-8
+  }
+</style>

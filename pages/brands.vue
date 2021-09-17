@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    <div class="gh-brands">
       <div>
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
@@ -78,3 +78,14 @@
     },
   }
 </script>
+
+<style>
+  .gh-brands {
+    @apply
+      grid
+      grid-cols-2
+      md:grid-cols-3
+      lg:grid-cols-4
+      gap-4
+  }
+</style>
