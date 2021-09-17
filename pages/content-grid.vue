@@ -84,7 +84,7 @@
 
   .gh-content-grid__image-wrapper {
     @apply
-      rounded-lg
+      rounded
       h-64
       overflow-hidden
   }

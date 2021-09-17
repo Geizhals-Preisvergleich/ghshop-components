@@ -3,7 +3,7 @@
     <div class="gh-card">
       <div class="gh-card__inner">
         <div class="gh-card__image-wrapper">
-          <img class="gh-card__image" src="../assets/placeholder-450x300.jpg" alt=""/>
+          <img class="gh-card__image" src="~/assets/placeholder-450x300.jpg" alt=""/>
         </div>
         <div class="gh-card__text-wrapper">
           <h4 class="gh-card__title">Titel</h4>
@@ -42,10 +42,10 @@
       w-full
       max-w-xl
       overflow-hidden
-      rounded-lg
-      shadow-lg
+      rounded
       sm:flex
       object-center
+      border
   }
 
   .gh-card__image-wrapper {
