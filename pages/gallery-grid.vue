@@ -1,28 +1,26 @@
 <template>
   <div>
     <section class="gh-gallery-grid">
-      <div class="gh-gallery-grid__inner">
-        <div class="gh-gallery-grid__column">
-          <div class="gh-gallery-grid__image-small-wrapper">
-            <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
-          </div>
-          <div class="gh-gallery-grid__image-small-wrapper">
-            <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
-          </div>
-          <div class="gh-gallery-grid__image-big-wrapper">
-            <img class="gh-gallery-grid__image-big" src="~/assets/placeholder-650x400.jpg" alt="">
-          </div>
+      <div class="gh-gallery-grid__column">
+        <div class="gh-gallery-grid__image-small-wrapper">
+          <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
         </div>
-        <div class="gh-gallery-grid__column">
-          <div class="gh-gallery-grid__image-big-wrapper">
-            <img class="gh-gallery-grid__image-big" src="~/assets/placeholder-650x400.jpg" alt="">
-          </div>
-          <div class="gh-gallery-grid__image-small-wrapper">
-            <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
-          </div>
-          <div class="gh-gallery-grid__image-small-wrapper">
-            <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
-          </div>
+        <div class="gh-gallery-grid__image-small-wrapper">
+          <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
+        </div>
+        <div class="gh-gallery-grid__image-big-wrapper">
+          <img class="gh-gallery-grid__image-big" src="~/assets/placeholder-650x400.jpg" alt="">
+        </div>
+      </div>
+      <div class="gh-gallery-grid__column">
+        <div class="gh-gallery-grid__image-big-wrapper">
+          <img class="gh-gallery-grid__image-big" src="~/assets/placeholder-650x400.jpg" alt="">
+        </div>
+        <div class="gh-gallery-grid__image-small-wrapper">
+          <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
+        </div>
+        <div class="gh-gallery-grid__image-small-wrapper">
+          <img class="gh-gallery-grid__image-small" src="~/assets/placeholder-350x200.jpg" alt="">
         </div>
       </div>
     </section>
@@ -46,17 +44,10 @@
 <style>
   .gh-gallery-grid {
     @apply
-      py-8
-      mx-auto
-      flex
-      flex-wrap
-  }
-
-  .gh-gallery-grid__inner {
-    @apply
       grid
       lg:grid-cols-2
       grid-cols-1
+      py-8
   }
 
   .gh-gallery-grid__column {

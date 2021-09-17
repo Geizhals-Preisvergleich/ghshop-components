@@ -52,7 +52,7 @@
       grid
       md:grid-cols-3
       grid-cols-1
-      gap-2
+      gap-4
       py-8
   }
 

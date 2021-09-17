@@ -1,27 +1,25 @@
 <template>
   <div>
     <section class="gh-paragraph-image">
-      <div class="gh-paragraph-image__inner">
-        <div
-          class="gh-paragraph-image__image-wrapper"
-          :class="{'gh-paragraph-image__image-wrapper--right': toggleActive}"
-        >
-          <a href="#">
-            <img class="gh-paragraph-image__image" src="~/assets/placeholder-750x300.jpg" alt="">
-          </a>
-        </div>
-        <div
-          class="gh-paragraph-image__content-wrapper"
-          :class="{'gh-paragraph-image__content-wrapper--left': toggleActive}"
-        >
-          <h2 class="gh-paragraph-image__title">
-            <a href="#">Lorem ipsum dolor sit amet</a>
-          </h2>
-          <p class="gh-paragraph-image__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+      <div
+        class="gh-paragraph-image__image-wrapper"
+        :class="{'gh-paragraph-image__image-wrapper--right': toggleActive}"
+      >
+        <a href="#">
+          <img class="gh-paragraph-image__image" src="~/assets/placeholder-750x300.jpg" alt="">
+        </a>
+      </div>
+      <div
+        class="gh-paragraph-image__content-wrapper"
+        :class="{'gh-paragraph-image__content-wrapper--left': toggleActive}"
+      >
+        <h2 class="gh-paragraph-image__title">
+          <a href="#">Lorem ipsum dolor sit amet</a>
+        </h2>
+        <p class="gh-paragraph-image__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
 
-          <div class="gh-paragraph-image__button-wrapper">
-            <a href="#" class="gh-button">Button</a>
-          </div>
+        <div class="gh-paragraph-image__button-wrapper">
+          <a href="#" class="gh-button">Button</a>
         </div>
       </div>
     </section>
@@ -59,11 +57,6 @@
       lg:py-6
       lg:flex
       lg:justify-center
-  }
-
-  .gh-paragraph-image__inner {
-    @apply
-      lg:flex
   }
 
   .gh-paragraph-image__image-wrapper {

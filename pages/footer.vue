@@ -116,15 +116,12 @@
     @apply
       text-xl
       font-bold
-      text-gray-800
-      hover:text-gray-700
   }
 
   .gh-footer__text {
     @apply
       max-w-md
       mt-2
-      text-gray-500
       mx-auto
       lg:mx-0
   }
@@ -143,8 +140,6 @@
     @apply
       mx-4
       lg:mx-2
-      text-gray-700
-      hover:text-gray-600
   }
 
   .gh-footer__socialmedia-icon {

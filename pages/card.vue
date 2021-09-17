@@ -1,16 +1,14 @@
 <template>
   <div>
     <div class="gh-card">
-      <div class="gh-card__inner">
-        <div class="gh-card__image-wrapper">
-          <img class="gh-card__image" src="~/assets/placeholder-450x300.jpg" alt=""/>
-        </div>
-        <div class="gh-card__text-wrapper">
-          <h4 class="gh-card__title">Titel</h4>
-          <p class="gh-card__text">
-            Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.
-          </p>
-        </div>
+      <div class="gh-card__image-wrapper">
+        <img class="gh-card__image" src="~/assets/placeholder-450x300.jpg" alt=""/>
+      </div>
+      <div class="gh-card__text-wrapper">
+        <h4 class="gh-card__title">Titel</h4>
+        <p class="gh-card__text">
+          Lorem ipsum dolor, sit amet cons ectetur adipis icing elit. Praesen tium, quibusdam facere quo laborum maiores sequi nam tenetur laud.
+        </p>
       </div>
     </div>
   </div>
@@ -34,11 +32,6 @@
   .gh-card {
     @apply
       flex
-      justify-center
-  }
-
-  .gh-card__inner {
-    @apply
       w-full
       max-w-xl
       overflow-hidden

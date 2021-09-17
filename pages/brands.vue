@@ -1,62 +1,62 @@
 <template>
   <div>
     <div class="gh-brands">
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
       </div>
-      <div>
+      <div class="gh-brands__item">
         <a href="#" rel="noopener noreferrer nofollow">
           <img src="~/assets/placeholder-350x100.jpg" alt="">
         </a>
@@ -85,7 +85,7 @@
       grid
       grid-cols-2
       md:grid-cols-3
-      lg:grid-cols-4
+      lg:grid-cols-6
       gap-4
   }
 </style>

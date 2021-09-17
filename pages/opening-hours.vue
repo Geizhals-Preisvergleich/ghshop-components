@@ -1,42 +1,40 @@
 <template>
   <div>
     <div class="gh-opening-hours">
-      <div class="gh-opening-hours__inner">
-        <table class="gh-opening-hours__table">
-          <thead>
-            <tr>
-              <th class="gh-opening-hours__table__head">Tag</th>
-              <th class="gh-opening-hours__table__head">Öffnungszeiten</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="gh-opening-hours__table__row">
-              <td class="gh-opening-hours__table__cell">Montag</td>
-              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
-            </tr>
-            <tr class="gh-opening-hours__table__row">
-              <td class="gh-opening-hours__table__cell">Dienstag</td>
-              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
-            </tr>
-            <tr class="gh-opening-hours__table__row">
-              <td class="gh-opening-hours__table__cell">Mittwoch</td>
-              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
-            </tr>
-            <tr class="gh-opening-hours__table__row">
-              <td class="gh-opening-hours__table__cell">Donnerstag</td>
-              <td class="gh-opening-hours__table__cell">9:00-17:00</td>
-            </tr>
-            <tr class="gh-opening-hours__table__row">
-              <td class="gh-opening-hours__table__cell">Freitag</td>
-              <td class="gh-opening-hours__table__cell">9:00-14:00 / 15:00-18:00</td>
-            </tr>
-            <tr class="gh-opening-hours__table__row">
-              <td class="gh-opening-hours__table__cell">Samstag</td>
-              <td class="gh-opening-hours__table__cell">9:00-11:30</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <table class="gh-opening-hours__table">
+        <thead>
+          <tr>
+            <th class="gh-opening-hours__table__head">Tag</th>
+            <th class="gh-opening-hours__table__head">Öffnungszeiten</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="gh-opening-hours__table__row">
+            <td class="gh-opening-hours__table__cell">Montag</td>
+            <td class="gh-opening-hours__table__cell">9:00-17:00</td>
+          </tr>
+          <tr class="gh-opening-hours__table__row">
+            <td class="gh-opening-hours__table__cell">Dienstag</td>
+            <td class="gh-opening-hours__table__cell">9:00-17:00</td>
+          </tr>
+          <tr class="gh-opening-hours__table__row">
+            <td class="gh-opening-hours__table__cell">Mittwoch</td>
+            <td class="gh-opening-hours__table__cell">9:00-17:00</td>
+          </tr>
+          <tr class="gh-opening-hours__table__row">
+            <td class="gh-opening-hours__table__cell">Donnerstag</td>
+            <td class="gh-opening-hours__table__cell">9:00-17:00</td>
+          </tr>
+          <tr class="gh-opening-hours__table__row">
+            <td class="gh-opening-hours__table__cell">Freitag</td>
+            <td class="gh-opening-hours__table__cell">9:00-14:00 / 15:00-18:00</td>
+          </tr>
+          <tr class="gh-opening-hours__table__row">
+            <td class="gh-opening-hours__table__cell">Samstag</td>
+            <td class="gh-opening-hours__table__cell">9:00-11:30</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
@@ -57,12 +55,6 @@
 
 <style>
   .gh-opening-hours {
-    @apply
-      w-2/3
-      mx-auto
-  }
-
-  .gh-opening-hours__inner {
     @apply
       bg-white
       my-6
