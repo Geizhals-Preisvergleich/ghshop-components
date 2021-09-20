@@ -52,7 +52,7 @@
     layout: 'components',
     data() {
       return {
-        title: 'Brands',
+        title: 'Checklist',
       }
     },
     mounted() {
@@ -67,7 +67,7 @@
       grid
       md:grid-cols-2
       grid-cols-1
-      gap-2
+      gap-4
   }
 
   .gh-checklist__item {
