@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/checklist", {data:[{}],fetch:{},mutations:[]});
