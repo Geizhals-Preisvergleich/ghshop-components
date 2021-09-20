@@ -19,6 +19,9 @@
         <NuxtLink to="/centered-text" class="index-link">Centered Text</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/checklist" class="index-link">Checklist</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/content-grid" class="index-link">Content Grid</NuxtLink>
       </li>
       <li>
