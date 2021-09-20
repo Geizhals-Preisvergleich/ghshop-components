@@ -16,6 +16,9 @@
         <NuxtLink to="/cards-image-bg" class="index-link">Cards Image BG</NuxtLink>
       </li>
       <li>
+        <NuxtLink to="/cards-info" class="index-link">Cards Info</NuxtLink>
+      </li>
+      <li>
         <NuxtLink to="/centered-text" class="index-link">Centered Text</NuxtLink>
       </li>
       <li>
