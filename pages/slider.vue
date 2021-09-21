@@ -71,6 +71,8 @@
 </script>
 
 <style>
+  @import '~/node_modules/@splidejs/splide/dist/css/themes/splide-default.min.css';
+
   .splide__slide {
     display: flex;
   }
