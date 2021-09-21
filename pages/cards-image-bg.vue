@@ -28,6 +28,33 @@
           <a href="#" class="gh-button">Mehr erfahren</a>
         </div>
       </div>
+      <div class="gh-cards-image-bg__item">
+        <div class="gh-cards-image-bg__shadow"></div>
+        <img class="gh-cards-image-bg__image" src="~/assets/placeholder-650x400.jpg" alt="">
+        <div class="gh-cards-image-bg__content-wrapper">
+          <h2 class="gh-cards-image-bg__title">Shooting Stars</h2>
+          <p class="gh-cards-image-bg__text">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+          <a href="#" class="gh-button">Mehr erfahren</a>
+        </div>
+      </div>
+      <div class="gh-cards-image-bg__item">
+        <div class="gh-cards-image-bg__shadow"></div>
+        <img class="gh-cards-image-bg__image" src="~/assets/placeholder-650x400.jpg" alt="">
+        <div class="gh-cards-image-bg__content-wrapper">
+          <h2 class="gh-cards-image-bg__title">Shooting Stars</h2>
+          <p class="gh-cards-image-bg__text">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+          <a href="#" class="gh-button">Mehr erfahren</a>
+        </div>
+      </div>
+      <div class="gh-cards-image-bg__item">
+        <div class="gh-cards-image-bg__shadow"></div>
+        <img class="gh-cards-image-bg__image" src="~/assets/placeholder-650x400.jpg" alt="">
+        <div class="gh-cards-image-bg__content-wrapper">
+          <h2 class="gh-cards-image-bg__title">Shooting Stars</h2>
+          <p class="gh-cards-image-bg__text">Skateboard +1 mustache fixie paleo lumbersexual.</p>
+          <a href="#" class="gh-button">Mehr erfahren</a>
+        </div>
+      </div>
     </section>
   </div>
 </template>
