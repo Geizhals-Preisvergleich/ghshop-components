@@ -39,9 +39,6 @@
       <li>
         <NuxtLink to="/hero" class="index-link">Hero</NuxtLink>
       </li>
-      <!-- <li>
-        <NuxtLink to="/navbar" class="index-link">Navbar</NuxtLink>
-      </li> -->
       <li>
         <NuxtLink to="/opening-hours" class="index-link">Opening Hours</NuxtLink>
       </li>
@@ -54,9 +51,6 @@
       <li>
         <NuxtLink to="/slider" class="index-link">Slider</NuxtLink>
       </li>
-      <!-- <li>
-        <NuxtLink to="/video" class="index-link">Video</NuxtLink>
-      </li> -->
     </ul>
   </div>
 </template>
