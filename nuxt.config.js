@@ -48,5 +48,8 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true,
+    filenames: {
+      css: ({ isDev }) => isDev ? '[name].css' : 'css/[name].[contenthash:7].css',
+    },
   },
 }

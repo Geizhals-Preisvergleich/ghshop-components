@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate && npm run concat-css",
-    "concat-css": "cat ./dist/_nuxt/css/* > ./dist/ghshop-components.css"
+    "concat-css": "cat ./dist/_nuxt/css/pages/* > ./dist/ghshop-components.css"
   },
   "dependencies": {
     "@splidejs/vue-splide": "^0.3.5",
