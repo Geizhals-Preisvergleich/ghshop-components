@@ -77,7 +77,8 @@
   .gh-cards-image-bg {
     @apply
       grid
-      md:grid-cols-3
+      lg:grid-cols-3
+      md:grid-cols-2
       grid-cols-1
       gap-4
       py-8
@@ -88,8 +89,6 @@
       flex
       flex-wrap
       w-full
-      h-52
-      md:h-64
       relative
       rounded
       overflow-hidden
@@ -109,19 +108,15 @@
 
   .gh-cards-image-bg__image {
     @apply
-      w-full
-      object-cover
-      h-full
-      object-center
       block
-      absolute
-      inset-0
+      w-full
+      h-full
   }
 
   .gh-cards-image-bg__content-wrapper {
     @apply
+      absolute
       text-left
-      relative
       z-10
       w-full
       p-4
