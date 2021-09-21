@@ -55,35 +55,10 @@
       mb-4
   }
 
-  .nuxt-link-active {
-    @apply
-      text-red-500
-  }
-
   .gh-container {
     @apply
       mx-auto
       text-center
       my-4
-  }
-
-  .gh-title {
-    @apply
-      text-4xl
-      text-center
-      mt-8
-      mb-4
-      uppercase
-      font-bold
-  }
-
-  .gh-subtitle {
-    @apply
-      text-gray-500
-      text-xl
-      text-center
-      mb-8
-      uppercase
-      tracking-wider
   }
 </style>
