@@ -2,6 +2,25 @@
   <div>
     <section class="gh-products-grid">
       <div class="gh-products-grid__item">
+        <div class="gh-products-grid__options">
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+            </svg>
+          </button>
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="6" cy="6" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+              <path d="M11 6h5a2 2 0 0 1 2 2v8"></path>
+              <polyline points="14 9 11 6 14 3"></polyline>
+              <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8"></path>
+              <polyline points="10 15 13 18 10 21"></polyline>
+            </svg>
+          </button>
+        </div>
         <a href="#">
           <img class="gh-products-grid__image" src="~/assets/placeholder-300x200.jpg" alt="">
         </a>
@@ -13,9 +32,37 @@
         <p class="gh-products-grid__shipping">
           zzgl. <a href="#" target="_blank">Versandkosten</a>
         </p>
-        <button type="button" class="gh-button w-full">In den Warenkorb</button>
+        <button type="button" class="gh-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gh-button__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="19" r="2"></circle>
+            <circle cx="17" cy="19" r="2"></circle>
+            <path d="M17 17h-11v-14h-2"></path>
+            <path d="M6 5l14 1l-1 7h-13"></path>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
       <div class="gh-products-grid__item">
+        <div class="gh-products-grid__options">
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+            </svg>
+          </button>
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="6" cy="6" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+              <path d="M11 6h5a2 2 0 0 1 2 2v8"></path>
+              <polyline points="14 9 11 6 14 3"></polyline>
+              <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8"></path>
+              <polyline points="10 15 13 18 10 21"></polyline>
+            </svg>
+          </button>
+        </div>
         <a href="#">
           <img class="gh-products-grid__image" src="~/assets/placeholder-300x200.jpg" alt="">
         </a>
@@ -27,9 +74,37 @@
         <p class="gh-products-grid__shipping">
           zzgl. <a href="#" target="_blank">Versandkosten</a>
         </p>
-        <button type="button" class="gh-button w-full">In den Warenkorb</button>
+        <button type="button" class="gh-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gh-button__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="19" r="2"></circle>
+            <circle cx="17" cy="19" r="2"></circle>
+            <path d="M17 17h-11v-14h-2"></path>
+            <path d="M6 5l14 1l-1 7h-13"></path>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
       <div class="gh-products-grid__item">
+        <div class="gh-products-grid__options">
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+            </svg>
+          </button>
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="6" cy="6" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+              <path d="M11 6h5a2 2 0 0 1 2 2v8"></path>
+              <polyline points="14 9 11 6 14 3"></polyline>
+              <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8"></path>
+              <polyline points="10 15 13 18 10 21"></polyline>
+            </svg>
+          </button>
+        </div>
         <a href="#">
           <img class="gh-products-grid__image" src="~/assets/placeholder-300x200.jpg" alt="">
         </a>
@@ -41,9 +116,37 @@
         <p class="gh-products-grid__shipping">
           zzgl. <a href="#" target="_blank">Versandkosten</a>
         </p>
-        <button type="button" class="gh-button w-full">In den Warenkorb</button>
+        <button type="button" class="gh-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gh-button__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="19" r="2"></circle>
+            <circle cx="17" cy="19" r="2"></circle>
+            <path d="M17 17h-11v-14h-2"></path>
+            <path d="M6 5l14 1l-1 7h-13"></path>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
       <div class="gh-products-grid__item">
+        <div class="gh-products-grid__options">
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+            </svg>
+          </button>
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="6" cy="6" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+              <path d="M11 6h5a2 2 0 0 1 2 2v8"></path>
+              <polyline points="14 9 11 6 14 3"></polyline>
+              <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8"></path>
+              <polyline points="10 15 13 18 10 21"></polyline>
+            </svg>
+          </button>
+        </div>
         <a href="#">
           <img class="gh-products-grid__image" src="~/assets/placeholder-300x200.jpg" alt="">
         </a>
@@ -55,9 +158,37 @@
         <p class="gh-products-grid__shipping">
           zzgl. <a href="#" target="_blank">Versandkosten</a>
         </p>
-        <button type="button" class="gh-button w-full">In den Warenkorb</button>
+        <button type="button" class="gh-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gh-button__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="19" r="2"></circle>
+            <circle cx="17" cy="19" r="2"></circle>
+            <path d="M17 17h-11v-14h-2"></path>
+            <path d="M6 5l14 1l-1 7h-13"></path>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
       <div class="gh-products-grid__item">
+        <div class="gh-products-grid__options">
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+            </svg>
+          </button>
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="6" cy="6" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+              <path d="M11 6h5a2 2 0 0 1 2 2v8"></path>
+              <polyline points="14 9 11 6 14 3"></polyline>
+              <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8"></path>
+              <polyline points="10 15 13 18 10 21"></polyline>
+            </svg>
+          </button>
+        </div>
         <a href="#">
           <img class="gh-products-grid__image" src="~/assets/placeholder-300x200.jpg" alt="">
         </a>
@@ -69,9 +200,37 @@
         <p class="gh-products-grid__shipping">
           zzgl. <a href="#" target="_blank">Versandkosten</a>
         </p>
-        <button type="button" class="gh-button w-full">In den Warenkorb</button>
+        <button type="button" class="gh-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gh-button__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="19" r="2"></circle>
+            <circle cx="17" cy="19" r="2"></circle>
+            <path d="M17 17h-11v-14h-2"></path>
+            <path d="M6 5l14 1l-1 7h-13"></path>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
       <div class="gh-products-grid__item">
+        <div class="gh-products-grid__options">
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+            </svg>
+          </button>
+          <button type="button" class="gh-products-grid__option">
+            <svg xmlns="http://www.w3.org/2000/svg" class="gh-products-grid__option__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <circle cx="6" cy="6" r="2"></circle>
+              <circle cx="18" cy="18" r="2"></circle>
+              <path d="M11 6h5a2 2 0 0 1 2 2v8"></path>
+              <polyline points="14 9 11 6 14 3"></polyline>
+              <path d="M13 18h-5a2 2 0 0 1 -2 -2v-8"></path>
+              <polyline points="10 15 13 18 10 21"></polyline>
+            </svg>
+          </button>
+        </div>
         <a href="#">
           <img class="gh-products-grid__image" src="~/assets/placeholder-300x200.jpg" alt="">
         </a>
@@ -83,7 +242,16 @@
         <p class="gh-products-grid__shipping">
           zzgl. <a href="#" target="_blank">Versandkosten</a>
         </p>
-        <button type="button" class="gh-button w-full">In den Warenkorb</button>
+        <button type="button" class="gh-button">
+          <svg xmlns="http://www.w3.org/2000/svg" class="gh-button__icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.25" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="19" r="2"></circle>
+            <circle cx="17" cy="19" r="2"></circle>
+            <path d="M17 17h-11v-14h-2"></path>
+            <path d="M6 5l14 1l-1 7h-13"></path>
+          </svg>
+          In den Warenkorb
+        </button>
       </div>
     </section>
   </div>
@@ -107,16 +275,43 @@
   .gh-products-grid {
     @apply
       grid
-      lg:grid-cols-6
-      md:grid-cols-3
+      xl:grid-cols-6
+      lg:grid-cols-3
       grid-cols-2
       gap-4
   }
 
   .gh-products-grid__item {
     @apply
+      relative
     bg-gray-100
       rounded
+  }
+
+  .gh-products-grid__options {
+    @apply
+    flex
+    absolute
+    top-2
+    right-1
+  }
+
+  .gh-products-grid__option {
+    @apply
+    flex
+    items-center
+    justify-center
+    p-1
+    mx-1
+    bg-white
+    rounded-full
+    hover:opacity-90
+  }
+
+  .gh-products-grid__option__icon {
+    @apply
+      h-5
+      w-5
   }
 
   .gh-products-grid__image {
@@ -155,5 +350,10 @@
     @apply
       leading-relaxed
       text-xs
+  }
+
+  .gh-products-grid .gh-button {
+    @apply
+      w-full
   }
 </style>
