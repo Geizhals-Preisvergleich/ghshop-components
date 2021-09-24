@@ -89,4 +89,18 @@
       xl:grid-cols-6
       gap-4
   }
+
+  .gh-brands__item {
+    @apply
+      flex
+      items-center
+      justify-center
+  }
+
+  .gh-brands__item img {
+    @apply
+      object-contain
+      w-full
+      h-14
+  }
 </style>
