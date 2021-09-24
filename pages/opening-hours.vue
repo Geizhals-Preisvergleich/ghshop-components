@@ -88,8 +88,8 @@
     @apply
       py-4
       px-6
-      border-b
-      border-gray-200
+      border
+      border-gray-400
       border-solid
   }
 </style>
