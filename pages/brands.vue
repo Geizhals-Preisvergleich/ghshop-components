@@ -95,12 +95,22 @@
       flex
       items-center
       justify-center
+      py-8
+      px-2
+      border
+      border-gray-400
+      rounded
+  }
+
+  .gh-brands__item a {
+    @apply
+      inline-flex
   }
 
   .gh-brands__item img {
     @apply
       object-contain
       w-full
-      h-14
+      h-16
   }
 </style>
