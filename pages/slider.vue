@@ -73,17 +73,25 @@
 <style>
   @import '~/node_modules/@splidejs/splide/dist/css/themes/splide-default.min.css';
 
+  .splide__track {
+    @apply
+      rounded
+  }
+
   .splide__slide {
-    display: flex;
+    @apply
+      flex
   }
 
   .splide__slide a {
-    width: 100%;
+    @apply
+      w-full
   }
 
   .splide__slide img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    @apply
+      object-cover
+      w-full
+      h-full
   }
 </style>
