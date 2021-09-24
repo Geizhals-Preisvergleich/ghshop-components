@@ -90,6 +90,7 @@
       px-6
       border-b
       border-gray-200
+      border-solid
   }
 </style>
 

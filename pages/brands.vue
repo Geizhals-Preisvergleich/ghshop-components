@@ -99,6 +99,7 @@
       px-2
       border
       border-gray-400
+      border-solid
       rounded
   }
 
