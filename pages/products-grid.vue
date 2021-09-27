@@ -363,6 +363,10 @@
     margin-bottom: 1rem;
   }
 
+  .actions-primary {
+    display: block !important;
+  }
+
   .actions-secondary {
     position: absolute !important;
     top: .25rem;
@@ -374,7 +378,11 @@
     background: white;
   }
 
-  .products-grid .product-item-details .product-item-actions .tocart {
-    width: 100%;
+  .product-item-actions {
+    margin: 1rem 0 0 !important;
+  }
+
+  .product-item-actions .tocart {
+    width: 100% !important;
   }
 </style>
