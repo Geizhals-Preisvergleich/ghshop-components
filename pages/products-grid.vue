@@ -356,4 +356,25 @@
     @apply
       w-full
   }
+
+  /* Custom styles for pre-configured Magento template */
+
+  li.product-item {
+    margin-bottom: 1rem;
+  }
+
+  .actions-secondary {
+    position: absolute !important;
+    top: .25rem;
+    right: .25rem;
+    background: transparent !important;
+  }
+
+  .actions-secondary .action {
+    background: white;
+  }
+
+  .products-grid .product-item-details .product-item-actions .tocart {
+    width: 100%;
+  }
 </style>
