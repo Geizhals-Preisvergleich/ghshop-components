@@ -272,7 +272,8 @@
 </script>
 
 <style>
-  .gh-products-grid {
+  .gh-products-grid,
+  .product-items.widget-new-grid {
     @apply
       grid
       xl:grid-cols-6
@@ -281,14 +282,16 @@
       gap-4
   }
 
-  .gh-products-grid__item {
+  .gh-products-grid__item,
+  .product-item .product-item-info {
     @apply
       relative
     bg-gray-100
       rounded
   }
 
-  .gh-products-grid__options {
+  .gh-products-grid__options,
+  .product-item .actions-secondary {
     @apply
     flex
     absolute
@@ -314,7 +317,8 @@
       w-5
   }
 
-  .gh-products-grid__image {
+  .gh-products-grid__image,
+  .product-item .product-image-photo {
     @apply
       h-40
       rounded
@@ -324,14 +328,16 @@
       mb-4
   }
 
-  .gh-products-grid__title {
+  .gh-products-grid__title,
+  .product-item .product-item-name {
     @apply
       text-lg
       font-bold
       mb-2
   }
 
-  .gh-products-grid__price {
+  .gh-products-grid__price,
+  .product-item .price-final_price {
     @apply
       leading-relaxed
       text-primary
@@ -339,7 +345,8 @@
       font-bold
   }
 
-  .gh-products-grid__tax {
+  .gh-products-grid__tax,
+  .product-item .price-details {
     @apply
       leading-relaxed
       text-xs
@@ -354,6 +361,24 @@
 
   .gh-products-grid .gh-button {
     @apply
+      w-full
+  }
+
+  .product-item .actions-primary .tocart {
+    color: var(--buttonText);
+
+    @apply
+      inline-flex
+      items-center
+      justify-center
+      bg-primary
+      hover:bg-secondary
+      px-4
+      py-2
+      m-0
+      mt-4
+      rounded
+      no-underline
       w-full
   }
 </style>
