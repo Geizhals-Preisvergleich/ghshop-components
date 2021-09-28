@@ -357,7 +357,9 @@
       w-full
   }
 
-  /* Custom styles for pre-configured Magento template */
+  /**
+   * Custom styles for pre-configured Magento template
+  */
 
   li.product-item {
     margin-bottom: 1rem;
@@ -384,5 +386,20 @@
 
   .product-item-actions .tocart {
     width: 100% !important;
+  }
+
+  @media (min-width: 992px) {
+    .page-layout-1column .block.widget .products-grid .product-item:nth-child(5n + 1) {
+        margin-left: 2%;
+    }
+
+    .page-layout-1column .block.widget .products-grid .product-item:nth-child(6n + 1) {
+        margin-left: 0;
+    }
+
+    .page-layout-1column .block.widget .products-grid .product-item {
+      margin-left: 2%;
+      width: calc((100% - 10%) / 6);
+    }
   }
 </style>
