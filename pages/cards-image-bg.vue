@@ -138,4 +138,12 @@
       text-white
       drop-shadow
   }
+
+  /**
+   * Custom styles for pre-configured Magento template
+  */
+
+  .page-header {
+    z-index: 12 !important;
+  }
 </style>
