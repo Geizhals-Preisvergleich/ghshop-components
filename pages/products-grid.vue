@@ -415,7 +415,10 @@
     .page-layout-1column .block.widget .products-grid .product-item {
       margin-left: 2%;
       width: calc((100% - 10%) / 4);
-      padding: 0;
     }
   }
+
+  .page-layout-1column .block.widget .products-grid .product-item {
+      padding: 0;
+    }
 </style>
