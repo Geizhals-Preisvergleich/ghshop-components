@@ -403,7 +403,7 @@
     }
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
     .page-layout-1column .block.widget .products-grid .product-item:nth-child(3n + 1) {
         margin-left: 2%;
     }
