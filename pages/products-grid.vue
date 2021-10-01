@@ -388,6 +388,10 @@
     width: 100% !important;
   }
 
+  .product-item-actions .tocompare {
+    display: none;
+  }
+
   @media (min-width: 1200px) {
     .page-layout-1column .block.widget .products-grid .product-item:nth-child(5n + 1) {
         margin-left: 2%;
