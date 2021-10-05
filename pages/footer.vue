@@ -68,9 +68,7 @@
           <div>
               <h3 class="uppercase">Contact</h3>
               <span class="gh-footer__link">+1 526 654 8965</span>
-              <span class="gh-footer__link">
-                <a href="mailto:example@email.com">example@email.com</a>
-              </span>
+              <a href="mailto:example@email.com" class="gh-footer__link">example@email.com</a>
           </div>
         </div>
       </div>
@@ -173,10 +171,12 @@
   }
 
   .gh-footer__link {
+    color: var(--primary);
+
     @apply
       block
       mt-2
-      text-sm
+      text-lg
   }
 
   .gh-footer__hr {
