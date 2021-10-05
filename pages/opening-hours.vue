@@ -75,7 +75,7 @@
       px-6
       font-bold
       uppercase
-      text-sm
+      text-lg
       text-white
   }
 
