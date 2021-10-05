@@ -171,7 +171,7 @@
   }
 
   .gh-footer__link {
-    color: var(--primary);
+    color: var(--primary) !important;
 
     @apply
       block
