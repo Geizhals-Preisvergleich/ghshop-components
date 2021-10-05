@@ -22,12 +22,12 @@
         >
       </label>
       <label>
-        Button Text:
+        Primary Text:
         <input
           type="color"
           class="color-picker"
-          id="buttonText"
-          :value="colors.buttonText"
+          id="primaryText"
+          :value="colors.primaryText"
           @change="setCssVar"
         >
       </label>

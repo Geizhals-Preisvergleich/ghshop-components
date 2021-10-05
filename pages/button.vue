@@ -29,7 +29,7 @@
 
 <style>
   .gh-button {
-    color: var(--buttonText);
+    color: var(--primaryText);
 
     @apply
       inline-flex
