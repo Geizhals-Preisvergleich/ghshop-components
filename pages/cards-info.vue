@@ -76,7 +76,6 @@
     @apply
       flex
       h-full
-      p-4
   }
 
   .gh-cards-info__title {
