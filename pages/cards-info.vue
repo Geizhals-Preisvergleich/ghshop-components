@@ -65,7 +65,7 @@
 
 <style>
   .gh-cards-info {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 
     @apply
       grid
@@ -84,6 +84,7 @@
       font-medium
       text-left
       mb-2
+      mt-0
   }
 
   .gh-cards-info__icon-wrapper {
