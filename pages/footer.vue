@@ -118,15 +118,14 @@
   }
 
   .gh-footer__column-2 {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
     @apply
       mt-6
       lg:mt-0
       lg:flex-1
       grid
-      grid-cols-2
-      gap-6
-      sm:grid-cols-3
-      md:grid-cols-4
+      gap-4
   }
 
   .gh-footer__logo {
