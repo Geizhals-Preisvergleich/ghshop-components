@@ -99,7 +99,6 @@
 <style>
   .gh-footer {
     @apply
-      px-6
       py-4
       mx-auto
   }
