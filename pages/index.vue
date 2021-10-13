@@ -2,54 +2,54 @@
   <div>
     <Colors />
 
-    <ul class="index">
+    <ul class="ghshop-index">
       <li>
-        <NuxtLink to="/brands" class="index-link">Brands Grid</NuxtLink>
+        <NuxtLink to="/brands" class="ghshop-index-link">Brands Grid</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/button" class="index-link">Button</NuxtLink>
+        <NuxtLink to="/button" class="ghshop-index-link">Button</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/card" class="index-link">Card</NuxtLink>
+        <NuxtLink to="/card" class="ghshop-index-link">Card</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/cards-image-bg" class="index-link">Cards Image BG</NuxtLink>
+        <NuxtLink to="/cards-image-bg" class="ghshop-index-link">Cards Image BG</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/cards-info" class="index-link">Cards Info</NuxtLink>
+        <NuxtLink to="/cards-info" class="ghshop-index-link">Cards Info</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/centered-text" class="index-link">Centered Text</NuxtLink>
+        <NuxtLink to="/centered-text" class="ghshop-index-link">Centered Text</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/checklist" class="index-link">Checklist</NuxtLink>
+        <NuxtLink to="/checklist" class="ghshop-index-link">Checklist</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/content-grid" class="index-link">Content Grid</NuxtLink>
+        <NuxtLink to="/content-grid" class="ghshop-index-link">Content Grid</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/footer" class="index-link">Footer</NuxtLink>
+        <NuxtLink to="/footer" class="ghshop-index-link">Footer</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/gallery-grid" class="index-link">Gallery Grid</NuxtLink>
+        <NuxtLink to="/gallery-grid" class="ghshop-index-link">Gallery Grid</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/google-maps" class="index-link">Google Maps</NuxtLink>
+        <NuxtLink to="/google-maps" class="ghshop-index-link">Google Maps</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/hero" class="index-link">Hero</NuxtLink>
+        <NuxtLink to="/hero" class="ghshop-index-link">Hero</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/opening-hours" class="index-link">Opening Hours</NuxtLink>
+        <NuxtLink to="/opening-hours" class="ghshop-index-link">Opening Hours</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/paragraph-image" class="index-link">Paragraph with Image</NuxtLink>
+        <NuxtLink to="/paragraph-image" class="ghshop-index-link">Paragraph with Image</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/products-grid" class="index-link">Products Grid</NuxtLink>
+        <NuxtLink to="/products-grid" class="ghshop-index-link">Products Grid</NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/slider" class="index-link">Slider</NuxtLink>
+        <NuxtLink to="/slider" class="ghshop-index-link">Slider</NuxtLink>
       </li>
     </ul>
   </div>
@@ -69,8 +69,8 @@
   }
 </script>
 
-<style scoped>
-  .index {
+<style>
+  .ghshop-index {
     @apply
       mx-auto
       text-center
@@ -81,7 +81,7 @@
       gap-4
   }
 
-  .index-link {
+  .ghshop-index-link {
     @apply
       rounded-xl
       no-underline
@@ -91,5 +91,21 @@
       hover:text-red-500
       py-2
       block
+  }
+
+  /**
+   * Custom styles for pre-configured Magento template
+  */
+
+  .page-wrapper .page-header.type1 .logo {
+    margin: 15px 0;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .tocompare {
+    display: none !important;
   }
 </style>
