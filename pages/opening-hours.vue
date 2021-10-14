@@ -71,6 +71,7 @@
     @apply
       border
       border-primary
+      border-solid
   }
 
   .gh-opening-hours__table__head {
