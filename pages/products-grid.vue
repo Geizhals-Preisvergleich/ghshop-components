@@ -430,13 +430,4 @@
   .products-grid .product-item {
     padding: .5rem;
   }
-
-  .block-category-list .block-title,
-  .block-category-list .block-content {
-    padding: .5rem !important;
-  }
-
-  .catalog-category-view .columns .column.main {
-    margin-bottom: 1rem;
-  }
 </style>

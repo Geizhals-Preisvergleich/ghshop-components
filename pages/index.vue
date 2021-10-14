@@ -108,4 +108,15 @@
   .tocompare {
     display: none !important;
   }
+
+  .block-category-list .block-title,
+  .block-category-list .block-content,
+  .filter .filter-options-title,
+  .filter .filter-options-content {
+    padding: .5rem !important;
+  }
+
+  .catalog-category-view .columns .column.main {
+    margin-bottom: 1rem;
+  }
 </style>
