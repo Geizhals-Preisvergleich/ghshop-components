@@ -422,7 +422,21 @@
     }
   }
 
-  .page-layout-1column .block.widget .products-grid .product-item {
+  .page-layout-1column .block.widget .products-grid .product-item,
+  .products-grid .product-item-info.type1 .product-item-details {
       padding: 0;
-    }
+  }
+
+  .products-grid .product-item {
+    padding: .5rem;
+  }
+
+  .block-category-list .block-title,
+  .block-category-list .block-content {
+    padding: .5rem !important;
+  }
+
+  .catalog-category-view .columns .column.main {
+    margin-bottom: 1rem;
+  }
 </style>
