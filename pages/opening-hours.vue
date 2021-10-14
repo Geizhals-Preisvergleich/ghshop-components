@@ -67,6 +67,12 @@
       border-collapse
   }
 
+  .gh-opening-hours__table thead {
+    @apply
+      border
+      border-primary
+  }
+
   .gh-opening-hours__table__head {
     background-color: var(--primary);
 
