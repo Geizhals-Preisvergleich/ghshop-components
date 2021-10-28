@@ -119,4 +119,8 @@
   .catalog-category-view .columns .column.main {
     margin-bottom: 1rem;
   }
+
+  .page-header {
+    box-shadow: 1px 0 20px -10px rgba(0, 0, 0, .38);
+  }
 </style>
