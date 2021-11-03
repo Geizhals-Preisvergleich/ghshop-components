@@ -430,39 +430,4 @@
   .products-grid .product-item {
     padding: .5rem;
   }
-
-  .block.widget.block-new-products.grid {
-      padding-top: 40px;
-  }
-
-  .product-image-photo {
-    display: initial;
-    position: relative;
-    max-width: 100px !important;
-  }
-
-  .product-image-photo.default_image {
-    max-width: 100px !important;
-  }
-
-  .product-items.widget-product-grid {
-      display: grid;
-    grid-template-columns: repeat(4,minmax(0,1fr));
-  }
-
-  .product-image-wrapper {
-    display: initial;
-  }
-
-  .block.widget .products-grid .product-items {
-    display: grid;
-    grid-template-columns: repeat(4,minmax(0,1fr));
-  }
-
- @media screen and (max-width: 750px) {
-  .block.widget .products-grid .product-items {
-    display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr)) !important;
-  }
- }
 </style>
