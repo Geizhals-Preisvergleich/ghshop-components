@@ -465,4 +465,9 @@
     grid-template-columns: repeat(2,minmax(0,1fr)) !important;
   }
  }
+
+ .product-item-photo {
+    min-height: 140px;
+    max-height: 140px;
+  }
 </style>
