@@ -123,4 +123,8 @@
   .page-header {
     box-shadow: 1px 0 20px -10px rgba(0, 0, 0, .38);
   }
+
+  .header.links li:nth-child(2) {
+    display: none !important;
+  }
 </style>
