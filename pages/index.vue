@@ -127,4 +127,48 @@
   .header.links li:nth-child(2) {
     display: none !important;
   }
+
+  #layer-product-list a.towishlist:hover {
+    color: var(--primary);
+  }
+
+  .products-grid .product-item-details .product-item-actions .actions-secondary:hover {
+    color: var(--primary) !important;
+  }
+
+  .footer-middle {
+    padding: 20px 0;
+  }
+
+  .field.limiter #limiter {
+    overflow: visible;
+  }
+
+  @media (max-width: 400px) {
+    .footer-middle .col-lg-3 {
+      padding-bottom: 20px;
+    }
+  }
+
+  .gh-footer__logo img {
+    max-width: 60%;
+  }
+
+  .page-header .logo img {
+      width: 300px;
+  }
+
+  .toolbar-products .modes {
+    display: none;
+  }
+
+  .navigation .level0.parent>.submenu {
+    max-height: 70vh;
+    overflow: auto !important;
+  }
+
+  .navigation .level0.parent:hover>.submenu {
+    max-height: 70vh;
+    overflow: auto !important;
+  }
 </style>
