@@ -181,4 +181,6 @@
     overflow-x: hidden !important;
     overflow-y: auto !important;
   }
+
+  .navigation .level0:hover:after { content: none !important; }
 </style>
