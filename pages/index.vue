@@ -171,4 +171,14 @@
     max-height: 70vh;
     overflow: auto !important;
   }
+
+  .navigation .level0.parent>.submenu {
+    max-height: 70vh;
+  }
+
+  .navigation .level0.parent:hover>.submenu {
+    max-height: 70vh;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
 </style>
