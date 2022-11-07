@@ -183,4 +183,11 @@
   }
 
   .navigation .level0:hover:after { content: none !important; }
+
+  .page-wrapper > .breadcrumbs .items,
+  .breadcrumbs a {
+    color: #707070;
+  }
+
+  .page-wrapper > .breadcrumbs { background: #fff !important; }
 </style>
