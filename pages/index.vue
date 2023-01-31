@@ -190,4 +190,9 @@
   }
 
   .page-wrapper > .breadcrumbs { background: #fff !important; }
+
+  .product-image-photo.default_image {
+    height: 250px;
+    object-fit: contain;
+  }
 </style>
